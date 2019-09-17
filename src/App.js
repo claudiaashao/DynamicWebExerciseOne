@@ -1,19 +1,22 @@
 import React from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import logo from './logo.svg';
 import {BrowserRouter as Router, Route, Link} from 'react-router-dom';
 import './App.css';
 
-import articleData from './components/SiteData/articleData';
+import Home from './containers/Home';
+import Article from './containers/Article';
+
+
 
 function App() {
-    console.log('articleData', articleData);
-
   return (
     <div className="App">
       <Router>
         <Route exact path="/" component={Home} />
         <Route exact path="/article/:id" component={Article} />
       </Router>
+
     </div>
   );
 }

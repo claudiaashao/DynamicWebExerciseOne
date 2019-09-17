@@ -26,7 +26,7 @@ const articleData = [
         }
       ],
       "image": {
-        "url": "https://via.placeholder.com/2000x1200",
+        "url": "https://cdn.wallpapersafari.com/58/32/TDUZc6.jpg",
         "alt": "A placeholder image"
       },
       "publishedDate": "Wed Sep 04 2019 17:04:38 GMT-0400"
@@ -58,7 +58,7 @@ const articleData = [
         }
       ],
       "image": {
-        "url": "https://via.placeholder.com/2000x1200",
+        "url": "https://cdn.wallpapersafari.com/58/32/TDUZc6.jpg",
         "alt": "A placeholder image"
       },
       "publishedDate": "Wed Sep 05 2019 10:04:38 GMT-0400"
@@ -90,7 +90,7 @@ const articleData = [
         }
       ],
       "image": {
-        "url": "https://via.placeholder.com/2000x1200",
+        "url": "https://cdn.wallpapersafari.com/58/32/TDUZc6.jpg",
         "alt": "A placeholder image"
       },
       "publishedDate": "Wed Sep 06 2019 18:04:38 GMT-0400"
@@ -122,7 +122,7 @@ const articleData = [
         }
       ],
       "image": {
-        "url": "https://via.placeholder.com/2000x1200",
+        "url": "https://cdn.wallpapersafari.com/58/32/TDUZc6.jpg",
         "alt": "A placeholder image"
       },
       "publishedDate": "Wed Aug 08 2019 12:04:38 GMT-0400"
@@ -154,7 +154,7 @@ const articleData = [
         }
       ],
       "image": {
-        "url": "https://via.placeholder.com/2000x1200",
+        "url": "https://cdn.wallpapersafari.com/58/32/TDUZc6.jpg",
         "alt": "A placeholder image"
       },
       "publishedDate": "Wed Aug 10 2019 12:04:38 GMT-0400"
@@ -194,7 +194,7 @@ const articleData = [
         }
       ],
       "image": {
-        "url": "https://via.placeholder.com/2000x1200",
+        "url": "https://cdn.wallpapersafari.com/58/32/TDUZc6.jpg",
         "alt": "A placeholder image"
       },
       "publishedDate": "Wed Aug 22 2019 17:04:38 GMT-0400"
