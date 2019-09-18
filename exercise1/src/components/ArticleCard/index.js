@@ -22,7 +22,7 @@ export default function ArticleCard (articleContent){
 							<p class="articleTitle">{articleContent.articleContent.title}</p>
 							<p class="articleDate">{articleContent.articleContent.publishedDate}</p>
 							<p>{articleContent.articleContent.blurb}</p>
-							<Button variant="link" href={articleContent.articleContent.id}>Read More</Button>
+							<Button variant="link" href={`/article/${articleContent.articleContent.id}`}>Read More</Button>
 						</Card.Text>
 						</Card.Body>
 					</Col>
