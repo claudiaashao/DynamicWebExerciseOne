@@ -18,8 +18,6 @@ function Article (props){
 			} 
 	},[]);
 
-	console.log('article', article);
-
 	return (
 		<div className="article">
 
