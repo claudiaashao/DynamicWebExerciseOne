@@ -24,9 +24,8 @@ function Article (props){
 		<div className="article">
 
 			<div className='header'>
-				<a href={`/`}>Back to Home</a>
-
-				<img src={article.image && article.image.url} alt=""></img>
+				<img className="headerimage" src={article.image && article.image.url} alt=""></img>
+				<a className="back" href={`/`}>Back to Home</a>
 				<p className="title">{article.title}</p>
 				<p className="date">{article.publishedDate}</p>
 				<p className="blurb">{article.blurb}</p>

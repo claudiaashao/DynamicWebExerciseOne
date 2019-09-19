@@ -69,28 +69,62 @@ a{
 
 .header{
   padding-bottom: 40px;
-  background-image: url('https://cdn.wallpapersafari.com/58/32/TDUZc6.jpg');
+  position:relative;
+  max-height: 300px; 
+  overflow: hidden;
+  text-indent: 40px;
+  /* background-image: url('https://cdn.wallpapersafari.com/58/32/TDUZc6.jpg'); */
+}
+
+.headerimage{
+  width: 100%;
+  height:auto;
+  padding: 0px;
 }
 
 .title{
-  font-size: 50px;
-  padding-top:20px;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  font-size: 35px;
+  text-align: center;
+  /* padding-top:20px;
   max-width: 700px; 
   margin: 0 auto !important; 
-	float: none !important;
+	float: none !important; */
+}
+
+.back{
+  position: absolute;
+  top: 20%;
+  left: 30%;
+  transform: translate(-50%, -50%);
 }
 
 .date{
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
   padding:0 0 20px 0;
-  max-width: 700px; 
+  /* max-width: 700px; 
   margin: 0 auto !important; 
-	float: none !important;
+	float: none !important; */
 }
 
 .blurb{
-  max-width: 700px; 
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  text-align: center;
+  /* max-width: 700px; 
   margin: 0 auto !important; 
-	float: none !important;
+	float: none !important; */
 }
 
 .text{
