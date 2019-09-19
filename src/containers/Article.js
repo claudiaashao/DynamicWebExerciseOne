@@ -18,13 +18,15 @@ function Article (props){
 			} 
 	},[]);
 
+	console.log('article', article);
+
 	return (
 		<div className="article">
 
 			<div className='header'>
 				<a href={`/`}>Back to Home</a>
 
-				{/* <img src={article.image.url} alt=""></img> */}
+				<img src={article.image && article.image.url} alt=""></img>
 				<p className="title">{article.title}</p>
 				<p className="date">{article.publishedDate}</p>
 				<p className="blurb">{article.blurb}</p>
